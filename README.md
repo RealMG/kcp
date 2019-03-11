@@ -2,6 +2,8 @@ KCP - A Fast and Reliable ARQ Protocol
 ======================================
 
 [![Powered][2]][1] [![Build Status][4]][5]
+[![Backers on Open Collective](https://opencollective.com/kcp/backers/badge.svg)](#backers)
+ [![Sponsors on Open Collective](https://opencollective.com/kcp/sponsors/badge.svg)](#sponsors) 
 
 [1]: https://github.com/skywind3000/kcp
 [2]: http://skywind3000.github.io/word/images/kcp.svg
@@ -145,6 +147,7 @@ TCP是为流量设计的（每秒内可以传输多少KB的数据），讲究的
 - [kcp-netty](https://github.com/szhnet/kcp-netty)：kcp的Java语言实现，基于netty。
 - [kcp-go](https://github.com/xtaci/kcp-go): 高安全性的kcp的 GO语言实现，包含 UDP会话管理的简单实现，可以作为后续开发的基础库。 
 - [kcp-csharp](https://github.com/limpo1989/kcp-csharp): kcp的 csharp移植，同时包含一份回话管理，可以连接上面kcp-go的服务端。
+- [kcp-csharp](https://github.com/KumoKyaku/KCP): 新版本 Kcp的 csharp移植。线程安全，运行时无alloc，对gc无压力。
 - [kcp-rs](https://github.com/en/kcp-rs): KCP的 rust移植
 - [kcp-rust](https://github.com/Matrix-Zhang/kcp)：新版本 KCP的 rust 移植
 - [tokio-kcp](https://github.com/Matrix-Zhang/tokio_kcp)：rust tokio 的 kcp 集成
@@ -188,6 +191,7 @@ TCP是为流量设计的（每秒内可以传输多少KB的数据），讲究的
 
 
 
+
 # 欢迎捐赠
 
 ![欢迎使用支付宝对该项目进行捐赠](https://raw.githubusercontent.com/skywind3000/kcp/master/donation.png)
@@ -200,8 +204,17 @@ TCP是为流量设计的（每秒内可以传输多少KB的数据），讲究的
 欢迎关注
 
 KCP交流群：364933586（QQ群号），KCP集成，调优，网络传输以及相关技术讨论
-QQ群已满千人，目前无法再加，请加 gitter 群：https://gitter.im/skywind3000/KCP
+Gitter 群：https://gitter.im/skywind3000/KCP
 
 blog: http://www.skywind.me
 
 zhihu: https://www.zhihu.com/people/skywind3000
+
+
+
+
+## Contributors
+
+This project exists thanks to all the people who contribute. 
+<a href="https://github.com/skywind3000/kcp/graphs/contributors"><img src="https://opencollective.com/kcp/contributors.svg?width=890&button=false" /></a>
+
